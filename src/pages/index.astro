@@ -1,0 +1,466 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import Button from "../components/Button.astro";
+import Link from "../components/Link.astro";
+import { Image } from "astro:assets";
+import thumbsup from "../assets/images/thumbsup.png";
+import mage1 from "../assets/images/mage1.png";
+import herounit from "../assets/images/heroUnit2.webp";
+---
+
+<!-- Hero Unit -->
+<section class="">
+  <div>
+    <Image src={herounit} alt="hero" />
+  </div>
+</section>
+<MainLayout title="SingleUseSucks">
+  <!-- hvad er plastikforurening -->
+
+  <section class="p-50 text-center">
+    <h1
+      class="text-8xl font-bold text-rose-500 fadein1 hover:text-white transition ease-in-out duration-300"
+    >
+      Plastikproblemet kort fortalt
+    </h1>
+  </section>
+  <section class="grid grid-cols-3 mt-5 mx-5 gap-10 mangeelementerinview">
+    <div class="mangeelementer1">
+      <p class="text-white">
+        Hvert eneste år ender ca. 11 millioner tons plastik i havet. 
+        Plastikkrisen er en af vores tids største udfordringer og påvirker både
+        klima, miljø og menneskers sundhed.  Plastikproduktionen er stærkt
+        afhængig af fossile brændstoffer, hvilket øger CO2-udledningen og
+        bidrager til global opvarmning. Når plastikken ikke håndteres korrekt,
+        ender den ofte i naturen, hvor den ødelægger økosystemer, skader
+        dyrelivet og især havmiljøet.  Samtidig nedbrydes plastik til
+        mikroplast, der forurener vores vand og luft og optages i fødekæden,
+        hvilket har uforudsigelige konsekvenser  for både dyr og mennesker. Det
+        kræver handling på alle niveauer at reducere plastikkens negative
+        indvirkning på vores planet.
+      </p>
+      <img
+        class="mangeelementer2 animate__animated animate-pulse"
+        src="/public/pose1.png"
+        style="animation-duration: 2s; animation-delay: 3s;"
+      />
+    </div>
+    <div class="mangeelementer3">
+      <p class="text-white">
+        Plastikforurening har en alvorlig indvirkning på dyrelivet. Mange dyr,
+        især havdyr som havskildpadder, fugle og fisk, kan komme til at spise
+        plastik, hvilket kan føre til kvælning, sult eller forgiftning.
+        Plastikken kan også samle sig i havets strømme og dække store områder,
+        hvilket forstyrrer naturlige levesteder og ødelægger biodiversiteten.
+        Desuden tager det hundreder af år for plastik at nedbrydes, hvilket
+        betyder, at mængden af plastik i naturen kun vokser med tiden, hvis ikke
+        der tages skridt til at stoppe udledningen. Samtidig er den økonomiske
+        byrde af plastikforurening enorm. Rydning af plastaffald koster
+        millioner af dollars hvert år, og mange industrier, som fiskeri og
+        turisme, lider økonomisk som følge af den forringede miljøkvalitet.
+      </p>
+      <img
+        class="mangeelementer4 animate__animated animate-pulse"
+        src="https://static.wixstatic.com/media/a3009f_143c3cba0b254afe9aef500d1b279463~mv2.png/v1/fill/w_564,h_713,al_c,q_90,enc_avif,quality_auto/bag6%20%20con.png"
+        style="animation-duration: 2s; animation-delay: 1s;"
+      />
+    </div>
+    <div class="mangeelementer5">
+      <p class="text-white">
+        Plastikforurening har også en direkte indvirkning på menneskers sundhed.
+        Når plastik nedbrydes til mikroplast, kan små partikler blive fundet i
+        drikkevand, mad og luft, hvilket øger risikoen for sundhedsproblemer.
+        Forskning har vist, at mikroplast kan optages i menneskekroppen, og de
+        potentielle langsigtede effekter er endnu ikke fuldt ud forstået. Der er
+        bekymring for, at mikroplast kan forårsage hormonforstyrrelser,
+        inflammationer og endda øge risikoen for visse sygdomme. Dette
+        understreger vigtigheden af at reducere plastikforurening for at
+        beskytte både vores miljø og vores egen sundhed.
+      </p>
+      <img
+        class="mangeelemeter6 animate__animated animate-pulse"
+        src="/public/pose1.png"
+        style="animation-duration: 2s; animation-delay: 2s;"
+      />
+    </div>
+  </section>
+  <!-- hvad er Problemet ved plastikforurening -->
+  <section>
+    <!-- containeren -->
+    <article>
+      <div
+        class="flex items-center h-screen w-full bg-cover bg-center sticky top-0"
+        style="background-image: url('/public/splitter2.webp')"
+      >
+      </div><!-- sticky elementet -->
+      <div class="relative flex justify-items-normal">
+        <!-- relative elementet -->
+        <div
+          class="flex flex-col w-full md:w-1/2 h-full justify-center gap-4 p-4"
+        >
+          <div class="">
+            <p class="m-4 text-rose-500 font-bold text-center text-4xl">
+              Plastic changes holdning til plast
+            </p>
+          </div>
+          <div class="bg-slate-100 rounded-md">
+            <p class="m-4">
+              Vi mener ikke, at man skal holde fuldstændig op med at bruge
+              plastik, da det nogle steder er et rigtig godt og brugbart
+              materiale. Det løser rigtig mange kritiske samfundsudfordringer,
+              f.eks. i sundhedsvæsenet. Men vi skal have et meget mere
+              miljøvenligt forhold til plastik – vi skal bruge meget mindre og
+              undgå unødvendigt plastik som f.eks. engangsplastikprodukter. Vi
+              skal i langt højere grad forebygge affald ved at stoppe
+              overproduktion af plastik og reducere vores forbrug af
+              engangsprodukter. Industrien skal designe produkter bedre og
+              smartere, så produkterne reelt og i praksis kan genbruges og
+              genanvendes, og produkterne får en så lang levetid i vores samfund
+              som muligt. Det kræver, at der samtidig også skabes flere
+              systemer, hvor vi kan returnere plast til genbrug, afvaskning og
+              genopfyldning. I supermarkederne får vi alt for meget
+              engangsemballage med hjem, og det skal i fremtiden blive lettere
+              som forbruger at mindske sit plastikaftryk ved at
+              genbrugsløsninger bliver let tilgængeligt alle steder i vores
+              samfund – når vi er ude at handle eller køber take-away drikke og
+              mad. Vi skal stoppe med at brænde vigtige ressourcer af, som vi i
+              høj grad gør i Danmark i dag, og i stedet cirkulere (genbruge og
+              genanvende) vores knappe ressourcer.
+            </p>
+          </div>
+          <div class="bg-slate-100 rounded-md">
+            <p class="m-4">
+              Vi kan ikke fortsætte med at producere mere og mere plastik, for
+              vi løber tør for fossile brændstoffer, og biobaseret plastik er
+              heller ikke en løsning, hvis vi ikke stopper væksten af
+              plastikproduktion – vi har simpelthen ikke ressourcer og
+              landbrugsjord nok til det. Samtidig skal vi via skrappere
+              lovgivning og større producentansvar sørge for, at der kun
+              produceres plastik uden skadelig kemi – alt for mange
+              plastikprodukter i dag indeholder kemi, som kan skade miljø, dyr
+              og sundhed, og vi sætter menneskers sundhed og fremtid på spil ved
+              at tillade skadelig kemi i hverdagsprodukter, selv i små doser.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="h-[100vh]"></div><!-- afstandsstykket -->
+    </article>
+
+    <article class="mt-40">
+      <div
+        class="sticky top-0 left-0 right-0 bottom-0 h-screen w-full overflow-hidden"
+      >
+        <img
+          class="absolute top-0 left-0 w-full h-full object-cover"
+          src="/public/affald_bjerg.png"
+          alt=""
+        />
+        <!-- Content over the video (without black background) -->
+        <div class="relative flex justify-start h-full px-5">
+          <div class="flex flex-col w-full md:w-1/2 justify-center gap-4 p-4">
+            <div class="bg-slate-100 bg-opacity-80 p-4 rounded-md mt-50">
+              <p class="text-center text-4xl font-bold text-rose-500">
+                Løsning på bekæmpelsen af plastikforurening
+              </p>
+            </div>
+            <div class="p-4 rounded-md">
+              <img
+                src="/public/cola_dase.png"
+                alt="cola dåse"
+                class="w-3/4 h-auto mx-auto"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="relative flex justify-end px-5">
+        <div
+          class="flex flex-col w-full md:w-1/2 h-full justify-center gap-4 p-4"
+        >
+          <div class="animate__animated animate-pulse">
+            <Image src={mage1} alt="måge" />
+          </div>
+          <div class="bg-slate-100 p-4 rounded-md">
+            <p>
+              Løsningen skal findes på land, for hvis vi vil knække
+              plastikkurven, så må vi mindske udledningen af plastik i stedet
+              for at satse på at rydde op i havene. Løsningerne findes både i
+              form af politisk handling (f.eks. lovgivning om bestemte typer og
+              produkter af plastik), handling fra industrien (f.eks. ved at
+              skabe plastikprodukter, der lettere kan genbruges og genanvendes,
+              og altså ikke er lavet af flere forskellige typer plastik), og via
+              formidling, hvor vi fortæller forbrugerne om plastikforurening og
+              dets konsekvenser, og hvad man selv kan gøre for at mindske
+              plastikforurening. Overordnet bør vi bruge langt mindre plastik og
+              dermed arbejde på reduktion i de forskellige led af plastikkens
+              rejse.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="h-[100vh]"></div>
+    </article>
+  </section>
+  <!-- hvad kan brugeren gøre -->
+  <section class="py-20 px-4 md:px-0 mt-20 rounded-xl">
+    <div
+      class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center"
+    >
+      <div>
+        <h2
+          class="text-4xl font-bold mb-4 text-center md:text-left text-rose-500"
+        >
+          Hvad kan du som bruger gøre?
+        </h2>
+        <p class="text-xl text-center md:text-left bg-slate-100 p-4 rounded-md">
+          Tips og Tricks til at mindske dit plastikforbrug
+        </p>
+        <p class="mt-5 prose bg-slate-100 p-4 rounded-md">
+          Begrænse plastforbrug: Brugerne kan reducere deres eget plastforbrug
+          ved at vælge produkter uden plastemballage eller bruge genanvendelige
+          alternativer som stofposer, metal- eller glasflasker i stedet for
+          plast. Deltage i oprydning af plastik: Mange lokale initiativer og
+          events opfordrer til at deltage i affaldsindsamlinger, som Plastic
+          Change og andre organisationer arrangerer. Dette hjælper med at fjerne
+          plastaffald fra naturen og havene. Støtte Plastic Change: Brugerne kan
+          støtte organisationen økonomisk ved at donere penge, hvilket hjælper
+          dem med at fortsætte deres arbejde med forskning og oplysning om
+          plastforurening. Tage ansvar for genanvendelse: Brugerne kan sikre, at
+          de sorterer deres affald korrekt, så plast kan genanvendes og undgå at
+          ende i naturen. De kan også vælge genanvendelige materialer fremfor
+          plast, hvor det er muligt. Sprede oplysning: At dele viden om
+          plastforurening med andre er en vigtig handling. Brugerne kan
+          informere deres venner, familie og kolleger om problemerne med plast i
+          miljøet og opfordre dem til at handle. Støtte lovgivning og
+          politikker: Brugerne kan støtte love og initiativer, der arbejder for
+          at reducere plastforbrug og fremme bæredygtighed. Dette kan være ved
+          at skrive til politikere eller deltage i kampagner for plastafgifter
+          eller restriktioner på engangsplast. Det handler i bund og grund om at
+          ændre både personlige vaner og engagere sig i større samfundsmæssige
+          bevægelser for at reducere plastforurening.
+        </p>
+      </div>
+      <div class="flex justify-center">
+        <img
+          src="/public/plastikpose_menneske.png"
+          alt="billede af hænder der holder plastik pose"
+          class="w-full h-auto rounded-xl drop-shadow-lg"
+          style="image-rendering: pixelated;"
+        />
+      </div>
+    </div>
+  </section>
+  <!-- informerer om hvordan Plastic Change gør en forskel -->
+  <section class="py-20 px-4 md:px-0 mt-20 rounded-xl">
+    <div
+      class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center"
+    >
+      <div>
+        <h2
+          class="text-4xl font-bold mb-4 text-center md:text-left text-rose-500"
+        >
+          Forskellen Som Plastic Change Gør
+        </h2>
+        <p class="mt-10 prose bg-slate-100 p-4 rounded-md">
+          Plastic Change er en dansk baseret organisation med et globalt udsyn,
+          og vi er den høje danske stemme i en alvorlig global problematik. Vi
+          sørger for at formidle viden til danskerne og skubbe på dagsordenen
+          nationalt i Danmark til vores industri, beslutningstagere og
+          politikere. Men kun ved også at søge internationalt samarbejde kan vi
+          for alvor løse problemet med plastik i naturen. Problemet med plastik
+          i naturen er så akut og stort, at det kræver en fokuseret indsats og
+          et internationalt samarbejde, hvis der skal opnås et paradigmeskift og
+          globale forandringer. Vi tror på, at ved at holde fokus på dette ene
+          store miljøproblem, får vi større gennemslagskraft over for
+          politikerne og erhvervslivet. Plastic Change er med i – og sidder i
+          styregruppen, hvor de store strategiske beslutninger tages – i den
+          globale bevægelse ”Break Free From Plastic”, der netop arbejder
+          fokuseret på et globalt samarbejde mod plastikkrisen. I Break Free
+          From Plastic arbejder mere end 2000 grønne organisationer fra hele
+          verden sammen om at løse udfordringen med plastik. Vi har dermed
+          samlet mange gode kræfter, erfaringer og viden fra hele verden, og det
+          er der brug for, for at løse den globale plastikkrise, vi står midt i.
+        </p>
+      </div>
+      <div class="flex justify-center">
+        <img
+          src="/public/fisk.png"
+          alt="fisk i plastik pose"
+          class="w-full h-auto rounded-xl drop-shadow-lg"
+          style="image-rendering: pixelated;"
+        />
+      </div>
+    </div>
+  </section>
+  <!-- <section> 
+    <div
+      class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-center mt-20"
+    >
+      <div class="">
+        <img
+          src="/public/fisk.png"
+          alt="billede af hænder der holder plastik pose"
+          class="w-full h-auto rounded-xl drop-shadow-lg"
+          style="image-rendering: pixelated;"
+        />
+      </div>
+      <div class="">
+        <h2
+          class="text-4xl font-bold mb-4 text-center md:text-left text-rose-500"
+        >
+          Forskellen Som Plastic Change Gør
+        </h2>
+        <p class="text-xl text-center md:text-left bg-slate-100 p-4 rounded-md">
+          Hvad er deres holdning til plastik?
+        </p>
+        <p class="mt-5 prose bg-slate-100 p-4 rounded-md">
+          Plastic Change er en dansk baseret organisation med et globalt udsyn,
+          og vi er den høje danske stemme i en alvorlig global problematik. Vi
+          sørger for at formidle viden til danskerne og skubbe på dagsordenen
+          nationalt i Danmark til vores industri, beslutningstagere og
+          politikere. Men kun ved også at søge internationalt samarbejde kan vi
+          for alvor løse problemet med plastik i naturen. Problemet med plastik
+          i naturen er så akut og stort, at det kræver en fokuseret indsats og
+          et internationalt samarbejde, hvis der skal opnås et paradigmeskift og
+          globale forandringer. Vi tror på, at ved at holde fokus på dette ene
+          store miljøproblem, får vi større gennemslagskraft over for
+          politikerne og erhvervslivet. Plastic Change er med i – og sidder i
+          styregruppen, hvor de store strategiske beslutninger tages – i den
+          globale bevægelse ”Break Free From Plastic”, der netop arbejder
+          fokuseret på et globalt samarbejde mod plastikkrisen. I Break Free
+          From Plastic arbejder mere end 2000 grønne organisationer fra hele
+          verden sammen om at løse udfordringen med plastik. Vi har dermed
+          samlet mange gode kræfter, erfaringer og viden fra hele verden, og det
+          er der brug for, for at løse den globale plastikkrise, vi står midt i.
+        </p>
+      </div>
+    </div> -->
+  <!-- sektion med “merchandise” -->
+  <section>
+    <section class="p-50 text-center">
+      <h1
+        class="text-8xl font-bold text-rose-500 fadein1 hover:text-white transition ease-in-out duration-300"
+      >
+        Støt formålet med merchandise
+      </h1>
+    </section>
+    <div
+      class="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center mt-20 px-4 md:px-0 mb-20 mx-10"
+    >
+      <img
+        src="/public/hoodie_1.png"
+        alt="billede af sofa i film"
+        class="w-full h-auto rounded-xl drop-shadow-lg transform transition-transform duration-300 hover:scale-110"
+        style="image-rendering: pixelated;"
+      />
+      <img
+        src="/public/hoodie_2.png"
+        alt="billede af sofa i film"
+        class="w-full h-auto rounded-xl drop-shadow-lg transform transition-transform duration-300 hover:scale-110"
+        style="image-rendering: pixelated;"
+      />
+      <img
+        src="/public/hoodie_3.png"
+        alt="billede af sofa i film"
+        class="w-full h-auto rounded-xl drop-shadow-lg transform transition-transform duration-300 hover:scale-110"
+        style="image-rendering: pixelated;"
+      />
+    </div>
+  </section>
+</MainLayout>
+
+<!-- progress bar -->
+<div
+  class="progress-bar h-2 fixed w-full bg-gradient-to-r from-cyan-50 to-rose-500 left-0 origin-top-left top-0 right-0"
+>
+</div>
+<script>
+  /* Import af Motion One bibliotek */
+  import { animate, stagger, inView, scroll } from "motion";
+
+  /* Min JS Herunder*/
+  scroll(animate(".progress-bar", { scaleX: [0, 1] }));
+
+  /* Mange elementer der animerer ind */
+  inView(".mangeelementerinview", () => {
+    animate(
+      ".mangeelementer1",
+      { x: [-2000, 0], y: [-50, 0] },
+      { duration: 1 }
+    );
+    animate(
+      ".mangeelementer2",
+      { x: [-1500, 0], y: [-100, 0] },
+      { duration: 1.5 }
+    );
+    animate(
+      ".mangeelementer3",
+      { x: [-1000, 0], y: [-150, 0] },
+      { duration: 1.5 }
+    );
+    animate(".mangeelementer4", { x: [1750, 0] }, { duration: 1.5 });
+    animate(
+      ".mangeelementer5",
+      { x: [-2000, 0], y: [-100, 0] },
+      { duration: 1 }
+    );
+    animate(".mangeelementer6", { x: [2000, 0] }, { duration: 2 });
+    return () => {
+      animate(
+        ".mangeelementer1",
+        { x: [-2000, 0], y: [-50, 0] },
+        { duration: 1 }
+      );
+      animate(
+        ".mangeelementer2",
+        { x: [-1500, 0], y: [-100, 0] },
+        { duration: 3 }
+      );
+      animate(
+        ".mangeelementer3",
+        { x: [-1000, 0], y: [-150, 0] },
+        { duration: 3 }
+      );
+      animate(".mangeelementer4", { x: [1750, 0] }, { duration: 2 });
+      animate(
+        ".mangeelementer5",
+        { x: [-2000, 0], y: [-100, 0] },
+        { duration: 1 }
+      );
+      animate(".mangeelementer6", { x: [2000, 0] }, { duration: 2 });
+    };
+  });
+
+  // fade in animationer til statements
+  const fadein1 = document.querySelector(".fadein1");
+
+  inView(fadein1, () => {
+    fadein1.classList.add("animate__animated", "animate__fadeInUp");
+    fadein1.style.animationDuration = "2s"; // Slower animation
+  });
+  const fadein2 = document.querySelector(".fadein2");
+
+  inView(fadein2, () => {
+    fadein2.classList.add("animate__animated", "animate__fadeInUp");
+    fadein2.style.animationDuration = "2s"; // Slower animation
+  });
+  scroll(animate(".stickyparallax1", { y: [-300, 0] }), {
+    target: document.querySelector(".stickyparallax1"),
+  });
+
+  /* Horisontal scroll sektion */
+  scroll(
+    animate("#horisontalliste", {
+      transform: ["none", "translateX(-500vw)"],
+    }),
+    { target: document.querySelector("#horisontalscrollsection") }
+  );
+</script>
+<!-- <article>
+		<h1>Index overskrift</h1>
+		<Button>Klik!</Button>
+		<p>Link til <Link href="https://www.kea.dk" target="_blank">En anden side</Link></p>
+		<Image src={thumbsup} alt=""></Image>
+	</article> -->
